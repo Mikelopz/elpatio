@@ -1,0 +1,240 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+  }
+
+/*Version Mobile-Friendly*/ 
+
+/*Estilizado del Header*/
+
+
+nav{
+  font-family:'Ubuntu', sans-serif; 
+  font-size: 1.6em;
+  background-color: rgb(13, 13, 13);
+  text-align: center;
+  height: 10vh;
+  padding-top: 100px;
+ }
+
+nav a{
+  text-decoration-line: none;
+  color: rgb(223, 18, 18);
+  padding: 25px;
+  
+}
+
+nav a:hover{
+ 
+  color: rgb(174, 11, 11);
+}
+
+
+
+/*Estilizado de Section Hero*/
+
+.hero{
+    background-color: rgb(13, 13, 13);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: rgb(223, 18, 18);
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.hero h1{
+    font-size: 3.5em;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+
+
+
+/*Estilizado de Section Disciplinas*/
+
+.entrenamientos {
+    background-color:rgb(223, 18, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrenamientos h2{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.3em;
+    color: whitesmoke;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.entrenamientos h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.entrenamientos .card {
+    background-color: darkred;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    width: 90%;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 40px;
+}
+
+.entrenamientos .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.entrenamientos .card img{
+    border-radius: 40px;
+}
+
+  /*Termina Estilizado Section Disciplinas*/
+
+  /*Estilizado Section Promos*/
+
+#promos  {
+  height: 50vh;
+  font-family:'Ubuntu', sans-serif;
+  color: white;
+  background-color: rgb(7, 7, 7);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#promos h3{
+  font-size: 2.3em;
+  color: rgb(223, 18, 18);
+}
+
+.promos-card{
+  background-color: darkred;
+  width: 55%;
+  height: 10%;
+  text-align: center;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.promos-card h4{
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px;
+  border-bottom: 1px solid white;
+}
+
+.promos-card p{
+  font-size: 1.3em;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+  /*Empieza Estilizado Section Sobre Nosotros*/
+
+.conteiner_sobrenosotros{
+  height: 30vh;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(209, 12, 12);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.conteiner_sobrenosotros h5{
+  font-size: 2em;
+  color:aliceblue;
+  margin: 10px 0px 30px 0px;
+}
+
+.conteiner_sobrenosotros p{
+  font-size: 1.3em;
+  color: aliceblue; 
+}
+
+.historia{
+  width: 60%;
+  padding: 20px;
+}
+
+.historia img{
+ width: 60%;
+ border-radius: 30px
+}
+
+
+  
+
+  /*Termina Estilizado Section Sobre Nosotros*/
+
+  /*Empieza Estilizado Section donde encontrarnos */
+
+  .redessociales {
+    background-color: rgb(13,13,13);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    
+    text-align: center;
+    padding: 20px;
+    display: block;
+    align-items:center ;
+    
+  }
+
+  .redessociales h5{
+    font-size: 1.5em;
+    color: rgb(223, 18, 18);
+    margin-bottom: 20px;
+  }
+
+  .redessociales p{
+    font-size: 1.5em;
+    color: rgb(223, 18, 18);
+  }
+
+  .redessociales img{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(12,12,12);
+  }
+
+.redessociales iframe{
+    width: 75%;
+    height: 700px;
+}
+
+/*Version Desktop Friendly*/
+
+
+
+@media (min-width:720px) {
+  nav{
+    background-color: aliceblue;
+  }
+}
+
+nav a{
+  margin 0;
+}
+
+ 
+  
